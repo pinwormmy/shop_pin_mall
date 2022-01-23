@@ -12,7 +12,7 @@
 	
 	body{font-size: 24px;}
 </style>
-<title>제목 미정 창구리</title>
+<title>쇼핑몰 준비중...</title>
 <meta charset="UTF-8" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,13 +24,9 @@
 		미도리를 괴롭히는 창구리!!!
 	</h1>
 	
-	<P>  The time on the server is ${serverTime}. </P>
+	<P> 현재 시간(서버시간)은 ${serverTime} 입니다. </P>
 	
-	<p>깃허브는 연동완료.학원에서 오라클 쓴다해서 오라클 연동하려하는데...
-	설치부터 복잡하다 짱짱남</p>
-	<p>오라클 11g 설치 완료</p>
-	
-	<p>스프링 폴더, E드라이브로 옮김. 다시 깃허브 테스트 이상무</p>
+	<p>오라클 11g 설치 완료. 연동 작업 완료. 잘되는지 테스트해봐야...</p>
 	
 	
 	
