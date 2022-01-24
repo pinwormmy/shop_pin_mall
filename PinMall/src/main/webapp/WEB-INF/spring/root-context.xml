@@ -10,7 +10,7 @@
 		    value="oracle.jdbc.driver.OracleDriver"></property>
 		<property name="jdbcUrl"
 		    value="jdbc:oracle:thin:@localhost:1521:XE"></property>
-		<property name="username" value="book_ex"></property>
+		<property name="username" value="pinwormmy"></property>
 		<property name="password" value="1111"></property>
 	</bean>
  
