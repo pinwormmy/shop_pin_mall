@@ -11,7 +11,7 @@
 		<property name="jdbcUrl"
 		    value="jdbc:oracle:thin:@localhost:1521:XE"></property>
 		<property name="username" value="pinwormmy"></property>
-		<property name="password" value="1111"></property>
+		<property name="password" value="0215"></property>
 	</bean>
  
     <!-- HikariCP configuration -->
