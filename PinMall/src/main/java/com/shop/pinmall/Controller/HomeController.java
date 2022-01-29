@@ -1,4 +1,4 @@
-package com.shop.pinmall;
+package com.shop.pinmall.Controller;
 
 import java.text.DateFormat;
 import java.util.Date;
