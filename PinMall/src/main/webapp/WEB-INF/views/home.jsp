@@ -55,7 +55,7 @@
 				<li>아이디 : <input type="text" name="userId"> </li>
 				<li>비밀번호 : <input type="password" name="userPassword">
 					<button>로그인</button> 
-					<button type="button" onclick="locaton.href='/signUp'">회원가입</button>
+					<button type="button" onclick="location.href='/signUp'">회원가입</button>
 				</li>				
 			</ul>
 		</form>
