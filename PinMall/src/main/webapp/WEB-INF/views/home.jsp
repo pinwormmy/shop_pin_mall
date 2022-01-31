@@ -50,7 +50,7 @@
 </head>
 <body>
 	<nav class="topMenu">
-		<form action="/login">
+		<form action="/login" method="post">
 			<ul>
 				<li>아이디 : <input type="text" name="userId"> </li>
 				<li>비밀번호 : <input type="password" name="userPassword">
@@ -63,9 +63,7 @@
 	<h1>
 		미도리를 괴롭히는 창구리!!!
 	</h1>
-	
-	<P> 현재 시간(서버시간)은 ${serverTime} 입니다. </P>
-	
+		
 	<p>
 		뭐부터 할까?<br>
 		일단 회원가입 및 로그인 시스템부터..
