@@ -100,13 +100,11 @@
 		</dependency>
 		
 		<!-- spring-test 추가 -->
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
 		<dependency>
-		    <groupId>org.springframework</groupId>
-		    <artifactId>spring-test</artifactId>
-		    <version>${org.springframework-version}</version>
-		    <scope>test</scope>
-		</dependency>
+	        <groupId>org.springframework</groupId>
+	        <artifactId>spring-test</artifactId>
+	        <version>${org.springframework-version}</version>
+    	</dependency>
 		
 		<!-- @Inject -->
 		<dependency>
