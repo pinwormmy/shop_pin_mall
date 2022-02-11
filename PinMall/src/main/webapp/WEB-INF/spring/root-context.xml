@@ -12,7 +12,9 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
-	<context:component-scan base-package="com.shop"></context:component-scan>
+	<context:component-scan base-package="com.shop.pinmall"></context:component-scan>
+	
+	<mybatis-spring:scan base-package="com.mapper"></mybatis-spring:scan>
 	
 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
  		<property name="driverClassName" value="oracle.jdbc.pool.OracleDataSource"></property>
@@ -27,10 +29,10 @@
 	</bean>
 	
 	<!-- SqlSessionFactory 객체 주입 --> 
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"> 
-	    <property name="dataSource" ref="dataSource" /> 
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="datasource"></property>
 	    <property name="configLocation" value="classpath:/mybatis-config.xml"></property> 
-	    <property name="mapperLocations" value="classpath:Mappers/*Mapper.xml"></property>
+	    <property name="mapperLocations" value="classpath*:/mapper/*Mapper.xml"></property>
 	</bean>
-
+	
 </beans>
